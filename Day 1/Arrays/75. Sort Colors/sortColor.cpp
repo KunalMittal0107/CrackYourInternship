@@ -40,7 +40,7 @@ int main(){
         cout<<nums[i]<<" ";
     }
 }
-// Time COmpexity:=O(nlogn)
+// Time COmpexity:=O(n)
 // Space Complexity= O(1)
 
 

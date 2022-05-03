@@ -11,3 +11,11 @@
 //         return j+1;
 //     }
 // };
+
+
+
+// approach2
+// int removeDuplicates(vector<int>& nums){
+// 	nums.erase(unique(nums.begin() ,nums.end()),nums.end() ); 
+// 	return nums.size() ;
+// }

@@ -24,3 +24,7 @@ int main(){
  
     cout<<findDuplicate(nums);
 }
+// Time COmpexity:=O(nlogn)
+// Space Complexity= O(1)
+//1. Sort the array .
+//2. then compare the adjacent numbers.

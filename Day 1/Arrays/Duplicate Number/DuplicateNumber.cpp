@@ -28,3 +28,22 @@ int main(){
 // Space Complexity= O(1)
 //1. Sort the array .
 //2. then compare the adjacent numbers.
+
+
+// Approach 2:
+// Using set
+
+
+// class Solution {
+// public:
+//     int findDuplicate(vector<int>& nums) {
+//      unordered_set<int>ans;
+//         for(auto &num:nums){
+//             if(ans.count(num)){
+//                 return num;
+//             }
+//             ans.insert(num);
+//         }
+//         return 0;
+//     }
+// };
